@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "sp-fx-pn-pjs-client-side-solution",
+    "id": "edb38ae2-c017-4be9-b3b5-968e6cd8b96d",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.17.3"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "SPFxPnPjs description"
+      },
+      "longDescription": {
+        "default": "SPFxPnPjs description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "sp-fx-pn-pjs Feature",
+        "description": "The feature that activates elements of the sp-fx-pn-pjs solution.",
+        "id": "77fb2597-f06a-42b7-ab56-e2673a84f721",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/sp-fx-pn-pjs.sppkg"
+  }
+}
